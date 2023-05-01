@@ -1,0 +1,23 @@
+{
+  "name": "vanilla-javascript-example",
+  "version": "1.0.0",
+  "description": "Hello MEMBERS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MEM-PARK/vanilla-javascript-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MEM-PARK/vanilla-javascript-example/issues"
+  },
+  "homepage": "https://github.com/MEM-PARK/vanilla-javascript-example#readme",
+  "devDependencies": {
+    "prettier": "2.8.8"
+  }
+}

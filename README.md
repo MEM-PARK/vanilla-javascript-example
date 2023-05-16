@@ -40,4 +40,4 @@
   - `document.getElementById()` : ID を指定して要素一つを取得できる。ID は HTML で一つだけ使えるから。
   - `document.getElementsByClassName()` : クラスを指定して要素たちを配列形式で取得できる。クラスは重複使用できるから。
   - `document.querySelector()` : CSS のセレクターで指定して要素一つを取得することができる。
-  - - `document.querySelectorAll()` : CSS のセレクターで指定して要素を配列形式で取得できる
+  - `document.querySelectorAll()` : CSS のセレクターで指定して要素を配列形式で取得できる

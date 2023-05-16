@@ -14,4 +14,30 @@
 
 ## ブラウザ上の JavaScript について
 
-- [x] `Alert`と`Prompt`について
+- [ ] `Alert`と`Prompt`について
+  - `prompt`はユーザーとやり取りができるが、入力値は`string`形式になる。
+  - `parseInt()`利用して文字列を数字に変更ができた。
+    - 数字ではないことを数字に変換すると`NAN(Not A Number)`になる。
+    - `isNaN()`というメソッドを使用して数字かどうかを判断できた。
+- [x] `IF`文について
+  ```js
+  if (条件式A) {
+    条件式AがTrueの場合
+  } else if (条件式B) {
+    条件式AがFalseで、条件式BがTrueの場合
+  } else {
+    条件式Aと条件式BがFalseの場合
+  }
+  ```
+- [x] `null` vs `undefined`
+- [x] `console.log()`と`console.dir()`について
+
+### HTML の要素を選択方法
+
+- [x] document とは
+- [ ] 要素を選択する方法
+  - `document.getElementByTagName()` : タグを指定して要素たちを配列形式で取得できる。タグは重複使用できるから。
+  - `document.getElementById()` : ID を指定して要素一つを取得できる。ID は HTML で一つだけ使えるから。
+  - `document.getElementsByClassName()` : クラスを指定して要素たちを配列形式で取得できる。クラスは重複使用できるから。
+  - `document.querySelector()` : CSS のセレクターで指定して要素一つを取得することができる。
+  - - `document.querySelectorAll()` : CSS のセレクターで指定して要素を配列形式で取得できる

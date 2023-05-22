@@ -5,7 +5,7 @@
 - [x] README.md とは
 - [x] Node.js とブラウザ上の JavaScript について
 - [x] .vscode/settings.json と LiveServer と Prettier について
-- [ ] node_modules、package.json、package-lock.json について
+- [x] node_modules、package.json、package-lock.json について
   - `npm init`を使用して `Node` プロジェクトを生成したら`package.json`が出てくる。
     - `main`は入り口を表するためにある属性
     - `script`はスクリプトを実行するために定義してること
@@ -58,6 +58,10 @@
 
 ### イベント
 
+- [ ] `Function` とは？
+  -
 - [ ] イベントとは？
+  - ユーザー操作や、環境の変化などを意味
 - [ ] イベントを要素に登録するためには`XXX.addEventListener()`を使用する方が良いです。
-- [ ] Function とは？
+  - `addEventListener`を利用して登録したイベントは`removeEventListener`をイベントを取り消すことが可能
+  - `onclick`でもイベントを登録することは可能が、このように登録したイベントは`removeEventListener`で消すことができない。

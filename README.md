@@ -59,9 +59,14 @@
 ### イベント
 
 - [ ] `Function` とは？
-  -
 - [ ] イベントとは？
   - ユーザー操作や、環境の変化などを意味
 - [ ] イベントを要素に登録するためには`XXX.addEventListener()`を使用する方が良いです。
   - `addEventListener`を利用して登録したイベントは`removeEventListener`をイベントを取り消すことが可能
   - `onclick`でもイベントを登録することは可能が、このように登録したイベントは`removeEventListener`で消すことができない。
+- [関数](https://ja.javascript.info/function-basics?afsdads)
+  - [ ] 関数
+  - [ ] 関数定義
+  - [ ] ローカル変数
+  - [ ] 外部変数
+  - [ ] パラメータ

@@ -39,7 +39,7 @@
 
 ### HTML の要素を選択方法
 
-- [ ] documen
+- [x] document と windows
 - [x] 要素を選択する方法
 
   - `document.getElementByTagName()` : タグを指定して要素たちを配列形式で取得できる。タグは重複使用できるから。
@@ -58,10 +58,9 @@
 
 ### イベント
 
-- [ ] `Function` とは？
-- [ ] イベントとは？
-  - ユーザー操作や、環境の変化などを意味
-- [ ] イベントを要素に登録するためには`XXX.addEventListener()`を使用する方が良いです。
+- [x] `Function` とは？
+- [x] イベントとは : ユーザー操作や、環境の変化などを意味
+- [x] イベントを要素に登録するためには`XXX.addEventListener()`を使用する方が良いです。
   - `addEventListener`を利用して登録したイベントは`removeEventListener`をイベントを取り消すことが可能
     - `addEventListener(type, listener)`の表記になるが、注意点としては`listener`を指定する時に`()`を入れないようにする。
       - `()`を入れたら、関数がすぐ実行される。イベントが発生した際に発火させるため`()`を入れない。

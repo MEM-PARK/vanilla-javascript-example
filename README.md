@@ -66,8 +66,12 @@
       - `()`を入れたら、関数がすぐ実行される。イベントが発生した際に発火させるため`()`を入れない。
   - `onclick`でもイベントを登録することは可能が、このように登録したイベントは`removeEventListener`で消すことができない。
 - [関数](https://ja.javascript.info/function-basics?afsdads)
-  - [ ] 関数
-  - [ ] 関数定義
-  - [ ] ローカル変数
-  - [ ] 外部変数
-  - [ ] パラメータ
+
+#### Form
+
+- [] `Form`を利用してデータを転送することができる。
+  - [] `method` : `GET`と`POST`がある。
+  - [] `action` : データを送信するどころ
+- [] `Form`中になる`Button`は基本的に`Submit`イベントを実施する。
+  - [] `button`が`Form`外にある場合は`Submit`イベントを実施してくれない。
+  - [] `Form`中の`Submit`イベントは`event.preventDefault()`を利用して防止できる。

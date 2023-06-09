@@ -1,8 +1,8 @@
-const h1 = document.querySelector("h1");
-const button = document.querySelector("button");
+const loginForm = document.querySelector("#login-form");
 
-function handleClick() {
-  h1.classList.toggle("colorToOrange");
-}
+const onLoginBtnClick = (event) => {
+  event.preventDefault();
+  console.log(event.target);
+};
 
-button.addEventListener("click", handleClick);
+loginForm.addEventListener("submit", onLoginBtnClick);

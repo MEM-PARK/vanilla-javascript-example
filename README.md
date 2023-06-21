@@ -69,9 +69,9 @@
 
 #### Form
 
-- [] `Form`を利用してデータを転送することができる。
-  - [] `method` : `GET`と`POST`がある。
-  - [] `action` : データを送信するどころ
-- [] `Form`中になる`Button`は基本的に`Submit`イベントを実施する。
-  - [] `button`が`Form`外にある場合は`Submit`イベントを実施してくれない。
-  - [] `Form`中の`Submit`イベントは`event.preventDefault()`を利用して防止できる。
+- [ ] `Form`を利用してデータを転送することができる。
+  - [ ] `method` : `GET`と`POST`がある。
+  - [ ] `action` : データを送信するどころ
+- [ ] `Form`中になる`Button`は基本的に`Submit`イベントを実施する。
+  - [ ] `button`が`Form`外にある場合は`Submit`イベントを実施してくれない。
+  - [ ] `Form`中の`Submit`イベントは`event.preventDefault()`を利用して防止できる。

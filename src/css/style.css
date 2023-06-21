@@ -1,3 +1,14 @@
 h1 {
   transition: 0.5s ease-in-out;
 }
+
+.orange {
+  color: orange;
+}
+.teal {
+  color: teal;
+}
+
+.bgColor {
+  background-color: red;
+}

@@ -12,3 +12,7 @@ h1 {
 .bgColor {
   background-color: red;
 }
+
+.hidden {
+  display: none;
+}

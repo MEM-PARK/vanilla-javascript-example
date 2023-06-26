@@ -7,18 +7,19 @@ const handleClick = () => {
 
 button.addEventListener("click", handleClick);
 
+const form = document.querySelector("#loginForm");
 const formInput = document.querySelector("#loginForm input");
-const formBtn = document.querySelector("#loginForm button");
+const welcome = document.querySelector("#welcome");
 
 const handleFormClick = (event) => {
   event.preventDefault();
-  if (formInput.value === "") {
-    alert("値がありません。");
-    return false;
-  } else if (formInput.value <= 20) {
+  if (formInput.value < 20) {
     alert("未成年者です。");
-    return false;
+    return;
   }
+
+  welcome.classList.remove("hidden");
+  welcome.innerText = `あなたの年齢は ${formInput.value}です。`;
 };
 
-formBtn.addEventListener("click", handleFormClick);
+form.addEventListener("submit", handleFormClick);
